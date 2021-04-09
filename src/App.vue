@@ -1,10 +1,9 @@
 <template>
-  <Layout />
   <router-view></router-view>
 </template>
 
 <script>
-import Layout from './components/Layout.vue'
+// import Layout from './components/Layout.vue'
 
 export default {
   name: 'App',
@@ -14,7 +13,7 @@ export default {
     }
   },
   components: {
-    Layout
+    // Layout
   },
   created(){
       console.log(this);
